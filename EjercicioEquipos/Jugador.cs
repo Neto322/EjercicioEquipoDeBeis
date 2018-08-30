@@ -10,7 +10,6 @@ namespace EjercicioEquipos
     {
         public string Nombre { get; set; }
         public string Numero { get; set; }
-        public List<Equipo> listaequipo { get; set; };
         public Jugador()
         {
             Nombre = "Jugador";
@@ -18,8 +17,8 @@ namespace EjercicioEquipos
         }
         public Jugador(string nombre, string numero)
         {
-            Nombre = Nombre;
-            Numero = Numero;
+            Nombre = nombre;
+            Numero = numero;
         }
     }
 }

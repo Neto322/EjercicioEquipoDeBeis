@@ -11,7 +11,8 @@ namespace EjercicioEquipos
         public string Nombre { get; set; }
         public string Ciudad { get; set; }
         public string Entrenador { get; set; }
-       public List<Jugador> listajugadores { get; set; };
+       public List<Jugador> listajugadores { get; set; }
+        public Estadio estadio { get; set; }
         public Equipo()
         {
             Nombre = "Nombre";
